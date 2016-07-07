@@ -1,0 +1,21 @@
+public interface HelloWorldIF {
+default String generateName() {
+RandomLetter ran = new RandomLetter
+Random rand = new Random;
+String Names = "";
+for(int i=0; i < rand.nextInt(15); i++) {
+Names += ran.RandomLetter;
+
+}
+return Names;
+
+} 
+default int setSundialTime(enum SUNDIAL) {
+return SUNDIAL.ordinal();
+
+
+}
+
+
+
+}
